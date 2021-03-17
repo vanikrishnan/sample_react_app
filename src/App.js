@@ -13,6 +13,10 @@ import PersonList from './components/PersonList';
 import StyleSheets from './components/StyleSheets';
 import Inline from './components/Inline';
 import Form from './components/Form';
+import LifeCycleA from './components/LifeCycleA';
+import Fragments from './components/Fragments';
+import Tables from './components/Tables';
+import ParentCompo from './components/ParentCompo';
 
 function App() {
   return (
@@ -44,12 +48,16 @@ function App() {
       <FunctionClick />
       <FunctionClickClass />
       <ParentComp /> */}
-      <UserGreeting />
+      {/* <UserGreeting />
       <NameList />
       <PersonList />
-      <StyleSheets primary={true} />
+      <StyleSheets primary={true} /> */}
       {/* <Inline /> */}
       <Form />
+      <LifeCycleA />
+      <Fragments />
+      <Tables />
+      <ParentCompo />
     </div>
   );
 }
