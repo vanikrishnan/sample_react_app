@@ -17,6 +17,9 @@ import LifeCycleA from './components/LifeCycleA';
 import Fragments from './components/Fragments';
 import Tables from './components/Tables';
 import ParentCompo from './components/ParentCompo';
+import RefDemo from './components/RefDemo';
+import FocusInput from './components/FocusInput';
+import FRParentInput from './components/FRParentInput';
 
 function App() {
   return (
@@ -53,11 +56,14 @@ function App() {
       <PersonList />
       <StyleSheets primary={true} /> */}
       {/* <Inline /> */}
-      <Form />
+      {/* <Form />
       <LifeCycleA />
       <Fragments />
       <Tables />
-      <ParentCompo />
+      <ParentCompo /> */}
+      {/* <RefDemo /> */}
+      {/* <FocusInput /> */}
+      <FRParentInput />
     </div>
   );
 }
