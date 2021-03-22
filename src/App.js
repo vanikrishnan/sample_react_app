@@ -20,6 +20,11 @@ import ParentCompo from './components/ParentCompo';
 import RefDemo from './components/RefDemo';
 import FocusInput from './components/FocusInput';
 import FRParentInput from './components/FRParentInput';
+import PortalDemo from './components/PortalDemo';
+import ErrorBoundary from './components/ErrorBoundary';
+import Hero from './components/Hero';
+import ClickCounter from './components/ClickCounter';
+import HoverCounter from './components/HoverCounter';
 
 function App() {
   return (
@@ -63,7 +68,19 @@ function App() {
       <ParentCompo /> */}
       {/* <RefDemo /> */}
       {/* <FocusInput /> */}
-      <FRParentInput />
+      {/* <FRParentInput /> */}
+      {/* <PortalDemo /> */}
+      {/* <ErrorBoundary>
+      <Hero heroName="Batsman" />
+      </ErrorBoundary>
+      <ErrorBoundary>
+      <Hero heroName="Superman" />
+      </ErrorBoundary>
+      <ErrorBoundary>
+      <Hero heroName="Joker" />
+      </ErrorBoundary> */}
+      <ClickCounter name="vani"/>
+      <HoverCounter />
     </div>
   );
 }
