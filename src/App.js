@@ -25,6 +25,13 @@ import ErrorBoundary from './components/ErrorBoundary';
 import Hero from './components/Hero';
 import ClickCounter from './components/ClickCounter';
 import HoverCounter from './components/HoverCounter';
+import CounterTwo from './components/CounterTwo';
+import HoverCounterTwo from './components/HoverCounterTwo';
+import ClickCounterTwo from './components/ClickCounterTwo';
+import ComponentC from './components/ComponentC';
+import { UserContextProvider } from './components/UserContext';
+import PostList from './components/PostList';
+import PostForm from './components/PostForm';
 
 function App() {
   return (
@@ -79,8 +86,25 @@ function App() {
       <ErrorBoundary>
       <Hero heroName="Joker" />
       </ErrorBoundary> */}
-      <ClickCounter name="vani"/>
-      <HoverCounter />
+      {/* <ClickCounter name="vani"/>
+      <HoverCounter /> */}
+      {/* <CounterTwo render={(count, incrementCount)=> 
+      (<ClickCounterTwo count={count} incrementCount={incrementCount}></ClickCounterTwo>)}/>
+       <CounterTwo render={(count, incrementCount)=> 
+      (<HoverCounterTwo count={count} incrementCount={incrementCount}></HoverCounterTwo>)}/> */}
+      {/* <CounterTwo>
+        {(count, incrementCount)=> 
+      (<ClickCounterTwo count={count} incrementCount={incrementCount}></ClickCounterTwo>)}
+      </CounterTwo>
+       <CounterTwo>
+         {(count, incrementCount)=> 
+      (<HoverCounterTwo count={count} incrementCount={incrementCount}></HoverCounterTwo>)}
+     </CounterTwo> */}
+     {/* <UserContextProvider value="vani">
+     <ComponentC />
+     </UserContextProvider>  */}
+     {/* <PostList /> */}
+     <PostForm />
     </div>
   );
 }
